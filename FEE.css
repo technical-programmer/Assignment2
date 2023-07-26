@@ -2,15 +2,22 @@
     margin:0%;
     padding: 0%;
 }
+body{
+    height: 100%;
+    overflow-;
+}
 .p1{
     font-size: 30px;
     color: white;
+}
+body{
+    background-color: burlywood;
 }
 .navBar{
     
     display: flex;
     justify-content: space-between;
-    background-color:rgba(38, 38, 148, 0.671);
+    background-color:#d5a581;
 
 
 }
@@ -29,13 +36,29 @@
     margin-left: 450px;
 }
 .footer{
-    background-color: black;
-    font-size: 20px;
+    background-color: #d5a581 ;
+    font-size: 30px;
     color: white;
-    margin-top: 300px;
+    margin-top: 5px;
     text-align: center;
+}
+.footer:hover{
+    color: indigo;
 }
 a{
     text-decoration: none;
     color:white;
+}
+
+a:hover{
+    color:green;
+    text-decoration: underline;
+}
+.marquee1{
+    font-family:'Times New Roman', Times, serif;
+    direction: right;
+}
+.iframe{
+    margin-top: 30px;
+    margin-left: 80px;
 }
